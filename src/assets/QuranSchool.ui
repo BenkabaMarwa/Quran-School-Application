@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1379</width>
+    <height>1263</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="page">
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_2">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(226, 236, 237);</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_4">
+              <item row="1" column="0">
+               <widget class="QFrame" name="LoginFrame_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>800</width>
+                  <height>550</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(226, 236, 237);</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_9">
+                 <item row="0" column="1">
+                  <widget class="QFrame" name="frame_17">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(226, 236, 237);</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <widget class="QLabel" name="label_8">
+                    <property name="geometry">
+                     <rect>
+                      <x>-30</x>
+                      <y>0</y>
+                      <width>401</width>
+                      <height>521</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="pixmap">
+                     <pixmap>assets/images/Design_sans_titre-removebg-preview.png</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="SignupButton">
+                    <property name="geometry">
+                     <rect>
+                      <x>80</x>
+                      <y>410</y>
+                      <width>221</width>
+                      <height>40</height>
+                     </rect>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton{
+	border-radius:10px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(64, 91, 90);
+	font: 10pt &quot;Imprint MT Shadow&quot;;
+}
+
+QPushButton:hover{
+	border-radius:10px;
+	background-color: rgb(91, 129, 127);
+	font: 13pt &quot;Imprint MT Shadow&quot;;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>فتح حساب</string>
+                    </property>
+                    <property name="shortcut">
+                     <string>Return</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_9">
+                    <property name="geometry">
+                     <rect>
+                      <x>110</x>
+                      <y>70</y>
+                      <width>141</width>
+                      <height>40</height>
+                     </rect>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 18pt &quot;Algerian&quot;;
+color: rgb(64, 91, 90);</string>
+                    </property>
+                    <property name="text">
+                     <string>فتح حساب</string>
+                    </property>
+                   </widget>
+                   <widget class="QFrame" name="frame_22">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>180</y>
+                      <width>330</width>
+                      <height>45</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>330</width>
+                      <height>45</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>45</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">border-radius: 15px;
+border:2px solid #c6c6c6;
+background-color: rgb(227, 227, 227);
+</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_37">
+                     <item row="0" column="1">
+                      <widget class="QLineEdit" name="UserNameLineEdit2">
+                       <property name="styleSheet">
+                        <string notr="true">border:non;</string>
+                       </property>
+                       <property name="placeholderText">
+                        <string>  اسم المستخدم</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="2">
+                      <widget class="QToolButton" name="toolButton_8">
+                       <property name="minimumSize">
+                        <size>
+                         <width>30</width>
+                         <height>17</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border:none;</string>
+                       </property>
+                       <property name="text">
+                        <string>...</string>
+                       </property>
+                       <property name="icon">
+                        <iconset>
+                         <normaloff>../Projects/InvenTrack/Icons/Green/user (3).png</normaloff>../Projects/InvenTrack/Icons/Green/user (3).png</iconset>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QFrame" name="frame_40">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>230</y>
+                      <width>330</width>
+                      <height>45</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>330</width>
+                      <height>45</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>45</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">border-radius: 15px;
+border:2px solid #c6c6c6;
+background-color: rgb(227, 227, 227);
+</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_38">
+                     <item row="0" column="1">
+                      <widget class="QLineEdit" name="PasswordLineEdit2">
+                       <property name="styleSheet">
+                        <string notr="true">border:non;</string>
+                       </property>
+                       <property name="echoMode">
+                        <enum>QLineEdit::Password</enum>
+                       </property>
+                       <property name="placeholderText">
+                        <string>  كلمة السر</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="2">
+                      <widget class="QToolButton" name="toolButton_19">
+                       <property name="minimumSize">
+                        <size>
+                         <width>30</width>
+                         <height>17</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border:none;</string>
+                       </property>
+                       <property name="text">
+                        <string>...</string>
+                       </property>
+                       <property name="icon">
+                        <iconset>
+                         <normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</iconset>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QFrame" name="frame_41">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>280</y>
+                      <width>330</width>
+                      <height>45</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>330</width>
+                      <height>45</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>45</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">border-radius: 15px;
+border:2px solid #c6c6c6;
+background-color: rgb(227, 227, 227);
+</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_39">
+                     <item row="0" column="1">
+                      <widget class="QLineEdit" name="PasswordLineEdit3">
+                       <property name="styleSheet">
+                        <string notr="true">border:non;</string>
+                       </property>
+                       <property name="echoMode">
+                        <enum>QLineEdit::Password</enum>
+                       </property>
+                       <property name="placeholderText">
+                        <string>  تأكيد كلمة السر</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="2">
+                      <widget class="QToolButton" name="toolButton_20">
+                       <property name="minimumSize">
+                        <size>
+                         <width>30</width>
+                         <height>17</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border:none;</string>
+                       </property>
+                       <property name="text">
+                        <string>...</string>
+                       </property>
+                       <property name="icon">
+                        <iconset>
+                         <normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</iconset>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QWidget" name="horizontalLayoutWidget_5">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>350</y>
+                      <width>311</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_7">
+                     <item>
+                      <widget class="QLabel" name="WrongPwdLabel_5">
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">color: rgb(170, 0, 0);
+font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="ClearButton2">
+                       <property name="maximumSize">
+                        <size>
+                         <width>50</width>
+                         <height>30</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QPushButton {
+	border:none;
+	font: italic 8pt &quot;MS Sans Serif&quot;;
+	text-decoration: underline;
+}
+QPushButton:Pressed{
+	color: rgb(90, 90, 90);
+	text-decoration: underline;
+	font: italic 8pt &quot;MS Sans Serif&quot;;
+}</string>
+                       </property>
+                       <property name="text">
+                        <string>مسح</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QLabel" name="label_2">
+                    <property name="geometry">
+                     <rect>
+                      <x>194</x>
+                      <y>330</y>
+                      <width>141</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(255, 0, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QFrame" name="frame_16">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(64, 91, 90);</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_116">
+                    <item row="0" column="0">
+                     <widget class="QFrame" name="frame_3">
+                      <property name="maximumSize">
+                       <size>
+                        <width>300</width>
+                        <height>250</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_5">
+                       <item row="0" column="0">
+                        <widget class="QLabel" name="label">
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="pixmap">
+                          <pixmap>assets/images/Design_sans_titre-removebg-preview.png</pixmap>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="2" column="0">
+                     <widget class="QFrame" name="frame_104">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_120">
+                       <item row="0" column="0">
+                        <widget class="QPushButton" name="ToSignupButton_2">
+                         <property name="maximumSize">
+                          <size>
+                           <width>200</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton{
+	border:2px solid #e2eced;
+	border-radius: 10px;
+	font: 10pt &quot;Imprint MT Shadow&quot;;	
+	color: rgb(217, 227, 228);
+	background-color: rgb(64, 91, 90);
+}
+QPushButton:hover{
+	border-radius: 10px;
+	font: 13pt &quot;Imprint MT Shadow&quot;;
+	background-color: rgb(226, 236, 237);
+	color: rgb(64, 91, 90);
+}
+</string>
+                         </property>
+                         <property name="text">
+                          <string>تسجيل الدخول</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="3" column="0">
+                     <widget class="QFrame" name="frame_101">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_119">
+                       <item row="0" column="3">
+                        <widget class="QLabel" name="Fblabel_3">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="pixmap">
+                          <pixmap>../Projects/InvenTrack/Icons/facebook (5).png</pixmap>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="4">
+                        <widget class="QLabel" name="Instalabel_3">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="pixmap">
+                          <pixmap>../Projects/InvenTrack/Icons/instagram.png</pixmap>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="2">
+                        <widget class="QLabel" name="LinkedInlabel_3">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="pixmap">
+                          <pixmap>../Projects/InvenTrack/Icons/linkedin (3).png</pixmap>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QFrame" name="frame_6">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>50</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <widget class="QLabel" name="label_87">
+                       <property name="geometry">
+                        <rect>
+                         <x>30</x>
+                         <y>10</y>
+                         <width>237</width>
+                         <height>21</height>
+                        </rect>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>16777215</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">font: 10pt &quot;Imprint MT Shadow&quot;;
+color: rgb(226, 236, 237);</string>
+                       </property>
+                       <property name="text">
+                        <string>نرتّب التعليم، لنرتقي بحفظ القرآن..</string>
+                       </property>
+                      </widget>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QFrame" name="LoginFrame">
+                <property name="maximumSize">
+                 <size>
+                  <width>800</width>
+                  <height>550</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(226, 236, 237);</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_8">
+                 <item row="0" column="0">
+                  <widget class="QFrame" name="frame_13">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(64, 91, 90);</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_115">
+                    <item row="2" column="0">
+                     <widget class="QFrame" name="frame_103">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_118">
+                       <item row="0" column="0">
+                        <widget class="QPushButton" name="ToSignupButton">
+                         <property name="maximumSize">
+                          <size>
+                           <width>200</width>
+                           <height>40</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton{
+	border:2px solid #e2eced;
+	border-radius: 10px;
+	font: 10pt &quot;Imprint MT Shadow&quot;;	
+	color: rgb(217, 227, 228);
+	background-color: rgb(64, 91, 90);
+}
+QPushButton:hover{
+	border-radius: 10px;
+	font: 13pt &quot;Imprint MT Shadow&quot;;
+	background-color: rgb(226, 236, 237);
+	color: rgb(64, 91, 90);
+}
+</string>
+                         </property>
+                         <property name="text">
+                          <string>فتح حساب</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="3" column="0">
+                     <widget class="QFrame" name="frame_100">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_117">
+                       <item row="0" column="3">
+                        <widget class="QLabel" name="Fblabel_2">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="pixmap">
+                          <pixmap>../Projects/InvenTrack/Icons/facebook (5).png</pixmap>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="4">
+                        <widget class="QLabel" name="Instalabel_2">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="pixmap">
+                          <pixmap>../Projects/InvenTrack/Icons/instagram.png</pixmap>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="2">
+                        <widget class="QLabel" name="LinkedInlabel_2">
+                         <property name="minimumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>45</width>
+                           <height>45</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="pixmap">
+                          <pixmap>../Projects/InvenTrack/Icons/linkedin (3).png</pixmap>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QFrame" name="frame_4">
+                      <property name="maximumSize">
+                       <size>
+                        <width>300</width>
+                        <height>250</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_6">
+                       <item row="0" column="0">
+                        <widget class="QLabel" name="label_7">
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="pixmap">
+                          <pixmap>assets/images/Design_sans_titre-removebg-preview.png</pixmap>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QFrame" name="frame_5">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>50</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <widget class="QLabel" name="label_86">
+                       <property name="geometry">
+                        <rect>
+                         <x>30</x>
+                         <y>10</y>
+                         <width>237</width>
+                         <height>21</height>
+                        </rect>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>16777215</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">font: 10pt &quot;Imprint MT Shadow&quot;;
+color: rgb(226, 236, 237);</string>
+                       </property>
+                       <property name="text">
+                        <string>نرتّب التعليم، لنرتقي بحفظ القرآن..</string>
+                       </property>
+                      </widget>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QFrame" name="frame_14">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(226, 236, 237);</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <widget class="QLabel" name="label_4">
+                    <property name="geometry">
+                     <rect>
+                      <x>-30</x>
+                      <y>0</y>
+                      <width>401</width>
+                      <height>521</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="pixmap">
+                     <pixmap>assets/images/Design_sans_titre-removebg-preview.png</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                   <widget class="QPushButton" name="IForgetMyPwdpushButton">
+                    <property name="geometry">
+                     <rect>
+                      <x>220</x>
+                      <y>460</y>
+                      <width>141</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>200</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>MS Sans Serif</family>
+                      <pointsize>8</pointsize>
+                      <weight>50</weight>
+                      <italic>true</italic>
+                      <bold>false</bold>
+                      <underline>true</underline>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {
+	border:none;
+	font: italic 8pt &quot;MS Sans Serif&quot;;
+	text-decoration: underline;
+	background-color: rgb(255, 255, 255,0);
+}
+QPushButton:Pressed{
+	color: rgb(90, 90, 90);
+	text-decoration: underline;
+	font: italic 8pt &quot;MS Sans Serif&quot;;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>هل نسيت كلمة السر؟</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_5">
+                    <property name="geometry">
+                     <rect>
+                      <x>90</x>
+                      <y>60</y>
+                      <width>191</width>
+                      <height>40</height>
+                     </rect>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 18pt &quot;Algerian&quot;;
+color: rgb(64, 91, 90);
+background-color: rgb(255, 255, 255,0);</string>
+                    </property>
+                    <property name="text">
+                     <string>تسجيل الدخول</string>
+                    </property>
+                   </widget>
+                   <widget class="QWidget" name="horizontalLayoutWidget_3">
+                    <property name="geometry">
+                     <rect>
+                      <x>30</x>
+                      <y>320</y>
+                      <width>311</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_5">
+                     <item>
+                      <widget class="QLabel" name="WrongPwdLabel_3">
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">background-color: rgb(255, 255, 255,0);
+font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
+                       </property>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="ClearButton">
+                       <property name="maximumSize">
+                        <size>
+                         <width>50</width>
+                         <height>30</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QPushButton {
+	border:none;
+	font: italic 8pt &quot;MS Sans Serif&quot;;
+	text-decoration: underline;
+}
+QPushButton:Pressed{
+	color: rgb(90, 90, 90);
+	text-decoration: underline;
+	font: italic 8pt &quot;MS Sans Serif&quot;;
+}</string>
+                       </property>
+                       <property name="text">
+                        <string>مسح</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QFrame" name="frame_37">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>240</y>
+                      <width>330</width>
+                      <height>45</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>330</width>
+                      <height>45</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>45</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">border-radius: 15px;
+border:2px solid #c6c6c6;
+background-color: rgb(227, 227, 227);
+</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_33">
+                     <item row="0" column="1">
+                      <widget class="QLineEdit" name="PasswordLineEdit">
+                       <property name="styleSheet">
+                        <string notr="true">border:non;</string>
+                       </property>
+                       <property name="echoMode">
+                        <enum>QLineEdit::Password</enum>
+                       </property>
+                       <property name="placeholderText">
+                        <string>  كلمة السر</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="2">
+                      <widget class="QToolButton" name="toolButton_16">
+                       <property name="minimumSize">
+                        <size>
+                         <width>30</width>
+                         <height>17</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border:none;</string>
+                       </property>
+                       <property name="text">
+                        <string>...</string>
+                       </property>
+                       <property name="icon">
+                        <iconset>
+                         <normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</iconset>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QPushButton" name="LoginButton">
+                    <property name="geometry">
+                     <rect>
+                      <x>80</x>
+                      <y>380</y>
+                      <width>221</width>
+                      <height>40</height>
+                     </rect>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton{
+	border-radius:10px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(64, 91, 90);
+	font: 10pt &quot;Imprint MT Shadow&quot;;
+}
+
+QPushButton:hover{
+	border-radius:10px;
+	background-color: rgb(91, 129, 127);
+	font: 13pt &quot;Imprint MT Shadow&quot;;
+}</string>
+                    </property>
+                    <property name="text">
+                     <string>تسجيل الدخول</string>
+                    </property>
+                    <property name="shortcut">
+                     <string>Return</string>
+                    </property>
+                   </widget>
+                   <widget class="QFrame" name="frame_20">
+                    <property name="geometry">
+                     <rect>
+                      <x>20</x>
+                      <y>190</y>
+                      <width>330</width>
+                      <height>45</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>330</width>
+                      <height>45</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>45</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">border-radius: 15px;
+border:2px solid #c6c6c6;
+background-color: rgb(227, 227, 227);
+</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_32">
+                     <item row="0" column="2">
+                      <widget class="QToolButton" name="toolButton_6">
+                       <property name="minimumSize">
+                        <size>
+                         <width>30</width>
+                         <height>17</height>
+                        </size>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">border:none;</string>
+                       </property>
+                       <property name="text">
+                        <string>...</string>
+                       </property>
+                       <property name="icon">
+                        <iconset>
+                         <normaloff>../Projects/InvenTrack/Icons/Green/user (3).png</normaloff>../Projects/InvenTrack/Icons/Green/user (3).png</iconset>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="1">
+                      <widget class="QLineEdit" name="UserNameLineEdit">
+                       <property name="styleSheet">
+                        <string notr="true">border:non;</string>
+                       </property>
+                       <property name="placeholderText">
+                        <string>  اسم المستخدم</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                   <widget class="QLabel" name="label_3">
+                    <property name="geometry">
+                     <rect>
+                      <x>34</x>
+                      <y>290</y>
+                      <width>311</width>
+                      <height>20</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">color: rgb(255, 0, 0);</string>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_2"/>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1379</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>ToSignupButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>LoginFrame</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>869</x>
+     <y>1039</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1088</x>
+     <y>555</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ToSignupButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>LoginFrame_2</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>897</x>
+     <y>1045</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1085</x>
+     <y>1139</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ToSignupButton</sender>
+   <signal>clicked()</signal>
+   <receiver>LoginFrame_2</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>426</x>
+     <y>475</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>290</x>
+     <y>729</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ToSignupButton</sender>
+   <signal>clicked()</signal>
+   <receiver>LoginFrame</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>452</x>
+     <y>478</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>294</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
