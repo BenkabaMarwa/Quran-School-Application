@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1379</width>
-    <height>1263</height>
+    <height>1102</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <item row="0" column="0">
      <widget class="QFrame" name="frame">
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255);</string>
+       <string notr="true">background-color: rgb(226, 236, 237);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -27,10 +27,634 @@
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout_2">
-       <item row="0" column="0">
+       <item row="0" column="2">
+        <widget class="QLabel" name="usernamelabel">
+         <property name="styleSheet">
+          <string notr="true">font: 24pt &quot;Microsoft Uighur&quot;;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QFrame" name="frame1">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:10px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_15">
+          <item row="0" column="3">
+           <widget class="QToolButton" name="ShowtoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../Projects/InvenTrack/Icons/Green/eye.png</normaloff>../Projects/InvenTrack/Icons/Green/eye.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QToolButton" name="HidetoolButton_2">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../Projects/InvenTrack/Icons/Green/eye-crossed.png</normaloff>../Projects/InvenTrack/Icons/Green/eye-crossed.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QToolButton" name="BacktoolButton">
+            <property name="styleSheet">
+             <string notr="true">border:non;</string>
+            </property>
+            <property name="text">
+             <string>...</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>../Projects/InvenTrack/Icons/Green/left2.png</normaloff>../Projects/InvenTrack/Icons/Green/left2.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>793</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QFrame" name="frame_7">
+         <property name="minimumSize">
+          <size>
+           <width>250</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(64, 91, 90);
+border-radius:10px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="1" column="0">
+           <widget class="QFrame" name="frame_11">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>5</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(226, 236, 237);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QFrame" name="frame_9">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_11">
+             <item row="1" column="0">
+              <widget class="QFrame" name="ManagementFrame_5">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_223">
+                <item row="0" column="5">
+                 <widget class="QToolButton" name="ManagementtoolButton_7">
+                  <property name="styleSheet">
+                   <string notr="true">border:non;</string>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>assets/Icons/user-graduate (1).png</normaloff>assets/Icons/user-graduate (1).png</iconset>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QPushButton" name="ManagementButton_5">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">border:non;
+color: rgb(226, 236, 237);
+font: 57 11pt &quot;Dubai Medium&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>الطلبة</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QToolButton" name="ManagementtoolButton_8">
+                  <property name="styleSheet">
+                   <string notr="true">border:non;</string>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>assets/Icons/Green/user-graduate.png</normaloff>assets/Icons/Green/user-graduate.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QFrame" name="ManagementFrame_2">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_220">
+                <item row="0" column="5">
+                 <widget class="QToolButton" name="ManagementtoolButton_2">
+                  <property name="styleSheet">
+                   <string notr="true">border:non;</string>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>assets/Icons/homeee.png</normaloff>assets/Icons/homeee.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QPushButton" name="ManagementButton_2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">border:non;
+color: rgb(226, 236, 237);
+font: 57 11pt &quot;Dubai Medium&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>القائمة الرئيسية</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QToolButton" name="ManagementtoolButton_3">
+                  <property name="styleSheet">
+                   <string notr="true">border:non;</string>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>assets/Icons/Green/home (1).png</normaloff>assets/Icons/Green/home (1).png</iconset>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QFrame" name="ManagementFrame_6">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_224">
+                <item row="0" column="5">
+                 <widget class="QToolButton" name="ManagementtoolButton_9">
+                  <property name="styleSheet">
+                   <string notr="true">border:non;</string>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>assets/Icons/workshop (1).png</normaloff>assets/Icons/workshop (1).png</iconset>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="3">
+                 <widget class="QPushButton" name="ManagementButton_6">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">border:non;
+color: rgb(226, 236, 237);
+font: 57 11pt &quot;Dubai Medium&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>الأساتذة</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QToolButton" name="ManagementtoolButton_10">
+                  <property name="styleSheet">
+                   <string notr="true">border:non;</string>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>assets/Icons/Green/workshop.png</normaloff>assets/Icons/Green/workshop.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QFrame" name="frame_10">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_12">
+             <item row="0" column="0">
+              <widget class="QFrame" name="ManagementFrame_3">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_221">
+                <item row="0" column="3">
+                 <widget class="QPushButton" name="ManagementButton_3">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">border:non;
+color: rgb(226, 236, 237);
+font: 57 11pt &quot;Dubai Medium&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>الإعدادات</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="5">
+                 <widget class="QToolButton" name="ManagementtoolButton_5">
+                  <property name="styleSheet">
+                   <string notr="true">border:non;</string>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>assets/Icons/settings.png</normaloff>assets/Icons/settings.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QToolButton" name="ManagementtoolButton_6">
+                  <property name="styleSheet">
+                   <string notr="true">border:non;</string>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>assets/Icons/Green/settings (1).png</normaloff>assets/Icons/Green/settings (1).png</iconset>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QFrame" name="ManagementFrame_4">
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_222">
+                <item row="0" column="3">
+                 <widget class="QPushButton" name="ManagementButton_4">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">border:non;
+color: rgb(226, 236, 237);
+font: 57 11pt &quot;Dubai Medium&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>تسجيل الخروج</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="5">
+                 <widget class="QToolButton" name="ManagementtoolButton_4">
+                  <property name="styleSheet">
+                   <string notr="true">border:non;</string>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>assets/Icons/user-logout.png</normaloff>assets/Icons/user-logout.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="4">
+                 <widget class="QToolButton" name="ManagementtoolButton2_4">
+                  <property name="styleSheet">
+                   <string notr="true">border:non;</string>
+                  </property>
+                  <property name="text">
+                   <string>...</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>assets/Icons/Green/user-logout.png</normaloff>assets/Icons/Green/user-logout.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="0">
+           <widget class="QFrame" name="frame_8">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>110</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_10">
+             <item row="0" column="1">
+              <widget class="QLabel" name="label_6">
+               <property name="styleSheet">
+                <string notr="true">font: 8pt &quot;Algerian&quot;;
+color: rgb(226, 236, 237);</string>
+               </property>
+               <property name="text">
+                <string>Quran School</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_10">
+               <property name="maximumSize">
+                <size>
+                 <width>100</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>assets/images/Design_sans_titre-removebg-preview.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QFrame" name="ManagementFrame_7">
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_225">
+             <item row="0" column="5">
+              <widget class="QToolButton" name="ManagementtoolButton_11">
+               <property name="styleSheet">
+                <string notr="true">border:non;</string>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>assets/Icons/money-check-edit (3).png</normaloff>assets/Icons/money-check-edit (3).png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <widget class="QPushButton" name="ManagementButton_7">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border:non;
+color: rgb(226, 236, 237);
+font: 57 11pt &quot;Dubai Medium&quot;;</string>
+               </property>
+               <property name="text">
+                <string>الإشتراك الشهري</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="4">
+              <widget class="QToolButton" name="ManagementtoolButton_12">
+               <property name="styleSheet">
+                <string notr="true">border:non;</string>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>assets/Icons/Green/money-check-edit (2).png</normaloff>assets/Icons/Green/money-check-edit (2).png</iconset>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="1">
         <widget class="QStackedWidget" name="stackedWidget">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
          <property name="currentIndex">
-          <number>0</number>
+          <number>5</number>
          </property>
          <widget class="QWidget" name="page">
           <layout class="QGridLayout" name="gridLayout_3">
@@ -195,6 +819,9 @@ background-color: rgb(227, 227, 227);
                        <property name="placeholderText">
                         <string>  اسم المستخدم</string>
                        </property>
+                       <property name="clearButtonEnabled">
+                        <bool>true</bool>
+                       </property>
                       </widget>
                      </item>
                      <item row="0" column="2">
@@ -213,7 +840,7 @@ background-color: rgb(227, 227, 227);
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>../Projects/InvenTrack/Icons/Green/user (3).png</normaloff>../Projects/InvenTrack/Icons/Green/user (3).png</iconset>
+                         <normaloff>assets/Icons/Green/user (3).png</normaloff>assets/Icons/Green/user (3).png</iconset>
                        </property>
                       </widget>
                      </item>
@@ -264,6 +891,9 @@ background-color: rgb(227, 227, 227);
                        <property name="placeholderText">
                         <string>  كلمة السر</string>
                        </property>
+                       <property name="clearButtonEnabled">
+                        <bool>true</bool>
+                       </property>
                       </widget>
                      </item>
                      <item row="0" column="2">
@@ -282,7 +912,7 @@ background-color: rgb(227, 227, 227);
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</iconset>
+                         <normaloff>assets/Icons/Green/lock (3).png</normaloff>assets/Icons/Green/lock (3).png</iconset>
                        </property>
                       </widget>
                      </item>
@@ -333,6 +963,9 @@ background-color: rgb(227, 227, 227);
                        <property name="placeholderText">
                         <string>  تأكيد كلمة السر</string>
                        </property>
+                       <property name="clearButtonEnabled">
+                        <bool>true</bool>
+                       </property>
                       </widget>
                      </item>
                      <item row="0" column="2">
@@ -351,7 +984,7 @@ background-color: rgb(227, 227, 227);
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</iconset>
+                         <normaloff>assets/Icons/Green/lock (3).png</normaloff>assets/Icons/Green/lock (3).png</iconset>
                        </property>
                       </widget>
                      </item>
@@ -1101,6 +1734,9 @@ background-color: rgb(227, 227, 227);
                        <property name="placeholderText">
                         <string>  كلمة السر</string>
                        </property>
+                       <property name="clearButtonEnabled">
+                        <bool>true</bool>
+                       </property>
                       </widget>
                      </item>
                      <item row="0" column="2">
@@ -1119,7 +1755,7 @@ background-color: rgb(227, 227, 227);
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</normaloff>../Projects/InvenTrack/Icons/Green/lock (3).png</iconset>
+                         <normaloff>assets/Icons/Green/lock (3).png</normaloff>assets/Icons/Green/lock (3).png</iconset>
                        </property>
                       </widget>
                      </item>
@@ -1211,7 +1847,7 @@ background-color: rgb(227, 227, 227);
                        </property>
                        <property name="icon">
                         <iconset>
-                         <normaloff>../Projects/InvenTrack/Icons/Green/user (3).png</normaloff>../Projects/InvenTrack/Icons/Green/user (3).png</iconset>
+                         <normaloff>assets/Icons/Green/user (3).png</normaloff>assets/Icons/Green/user (3).png</iconset>
                        </property>
                       </widget>
                      </item>
@@ -1222,6 +1858,9 @@ background-color: rgb(227, 227, 227);
                        </property>
                        <property name="placeholderText">
                         <string>  اسم المستخدم</string>
+                       </property>
+                       <property name="clearButtonEnabled">
+                        <bool>true</bool>
                        </property>
                       </widget>
                      </item>
@@ -1253,7 +1892,2792 @@ background-color: rgb(227, 227, 227);
            </item>
           </layout>
          </widget>
-         <widget class="QWidget" name="page_2"/>
+         <widget class="QWidget" name="page_2">
+          <layout class="QGridLayout" name="gridLayout_13">
+           <item row="1" column="0">
+            <widget class="QFrame" name="frame_12">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_14">
+              <item row="1" column="1">
+               <widget class="QFrame" name="frame_32">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_30">
+                 <item row="0" column="0">
+                  <widget class="QFrame" name="frame_18">
+                   <property name="maximumSize">
+                    <size>
+                     <width>1300</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_16">
+                    <item row="0" column="1">
+                     <widget class="QFrame" name="frame_26">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_25">
+                       <item row="0" column="0">
+                        <widget class="QFrame" name="frame_30">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(255, 255, 255);</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QGridLayout" name="gridLayout_29">
+                          <item row="1" column="0">
+                           <widget class="QFrame" name="frame_31">
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="0" column="0">
+                           <widget class="QLabel" name="label_24">
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777215</width>
+                              <height>80</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">border:non;
+color: rgb(64, 91, 90);
+font: 23pt &quot;Arabic Typesetting&quot;;
+</string>
+                            </property>
+                            <property name="text">
+                             <string>الدخل الشهري:</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QFrame" name="frame_27">
+                      <property name="maximumSize">
+                       <size>
+                        <width>500</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_26">
+                       <item row="0" column="0">
+                        <widget class="QFrame" name="frame_28">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">background-color: rgb(255, 255, 255);</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QGridLayout" name="gridLayout_27">
+                          <item row="0" column="0">
+                           <widget class="QFrame" name="frame_39">
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <layout class="QGridLayout" name="gridLayout_42">
+                             <item row="0" column="0">
+                              <widget class="QLabel" name="label_23">
+                               <property name="styleSheet">
+                                <string notr="true">border:non;
+color: rgb(64, 91, 90);
+font: 23pt &quot;Arabic Typesetting&quot;;
+</string>
+                               </property>
+                               <property name="text">
+                                <string>التقويم الميلادي:</string>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item row="1" column="0">
+                           <widget class="QCalendarWidget" name="calendarWidget">
+                            <property name="maximumSize">
+                             <size>
+                              <width>400</width>
+                              <height>400</height>
+                             </size>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QFrame" name="frame_29">
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>200</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>200</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">border-radius:20px;
+background-color: rgb(64, 91, 90);</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QGridLayout" name="gridLayout_28">
+                          <item row="0" column="0">
+                           <widget class="QFrame" name="frame_38">
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <layout class="QGridLayout" name="gridLayout_40">
+                             <item row="0" column="0">
+                              <widget class="QLabel" name="label_25">
+                               <property name="styleSheet">
+                                <string notr="true">border:non;
+color: rgb(226, 236, 237);
+font: 18pt &quot;Arabic Typesetting&quot;;
+</string>
+                               </property>
+                               <property name="text">
+                                <string>إشترك شهريًا للوصول لكل الدروس والخدمات</string>
+                               </property>
+                               <property name="wordWrap">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item row="1" column="0">
+                              <widget class="QPushButton" name="pushButton">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>0</width>
+                                 <height>40</height>
+                                </size>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true">QPushButton{
+	border:2px solid #e2eced;
+	border-radius: 10px;
+	font: 10pt &quot;Imprint MT Shadow&quot;;	
+	color: rgb(217, 227, 228);
+	background-color: rgb(64, 91, 90);
+	
+}
+QPushButton:hover{
+	border-radius: 10px;
+	font: 13pt &quot;Imprint MT Shadow&quot;;
+	background-color: rgb(226, 236, 237);
+	color: rgb(64, 91, 90);
+}
+</string>
+                               </property>
+                               <property name="text">
+                                <string>الإشتراك الشهري</string>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item row="0" column="1">
+                           <widget class="QFrame" name="frame_36">
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <layout class="QGridLayout" name="gridLayout_41">
+                             <item row="0" column="0">
+                              <widget class="QLabel" name="label_22">
+                               <property name="maximumSize">
+                                <size>
+                                 <width>150</width>
+                                 <height>16777215</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap>assets/images/atm-card.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QFrame" name="frame1_3">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>120</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-radius:10px;
+background-color: rgb(226, 236, 237);</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_18">
+                 <item row="0" column="2">
+                  <widget class="QFrame" name="frame_23">
+                   <property name="maximumSize">
+                    <size>
+                     <width>200</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_23">
+                    <item row="0" column="2">
+                     <widget class="QLabel" name="label_17">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QFrame" name="frame_25">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_24">
+                       <item row="0" column="0">
+                        <widget class="QLabel" name="label_13">
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(64, 91, 90);
+font: 57 9pt &quot;Dubai Medium&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string>الأساتذة</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QLabel" name="teacherNumberslabel">
+                         <property name="styleSheet">
+                          <string notr="true">font: 11pt &quot;MV Boli&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QLabel" name="label_18">
+                      <property name="maximumSize">
+                       <size>
+                        <width>60</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap>assets/images/student.png</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="0" column="0">
+                  <spacer name="horizontalSpacer_3">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QFrame" name="frame_34">
+                   <property name="maximumSize">
+                    <size>
+                     <width>200</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_35">
+                    <item row="0" column="2">
+                     <widget class="QLabel" name="label_19">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QFrame" name="frame_35">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_36">
+                       <item row="0" column="0">
+                        <widget class="QLabel" name="label_20">
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(64, 91, 90);
+font: 57 9pt &quot;Dubai Medium&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string>الربح الشهري</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QLabel" name="teacherNumberslabel_2">
+                         <property name="styleSheet">
+                          <string notr="true">font: 11pt &quot;MV Boli&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QLabel" name="label_21">
+                      <property name="maximumSize">
+                       <size>
+                        <width>60</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap>assets/images/gross-profit.png</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="0" column="3">
+                  <widget class="QFrame" name="frame_19">
+                   <property name="maximumSize">
+                    <size>
+                     <width>200</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 255);</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_19">
+                    <item row="0" column="1">
+                     <widget class="QFrame" name="frame_21">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_20">
+                       <item row="0" column="0">
+                        <widget class="QLabel" name="label_12">
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(64, 91, 90);
+font: 57 9pt &quot;Dubai Medium&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string>الطلبة</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QLabel" name="studentNumberslabel">
+                         <property name="styleSheet">
+                          <string notr="true">font: 11pt &quot;MV Boli&quot;;</string>
+                         </property>
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <widget class="QLabel" name="label_11">
+                      <property name="maximumSize">
+                       <size>
+                        <width>60</width>
+                        <height>60</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap>assets/images/graduates.png</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="0" column="4">
+                  <spacer name="horizontalSpacer_4">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_3">
+          <layout class="QGridLayout" name="gridLayout_17">
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_15">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_21">
+              <item row="0" column="0">
+               <widget class="QFrame" name="frame_42">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(220, 230, 231);
+border-radius:10px</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_88">
+                 <item row="1" column="0">
+                  <spacer name="horizontalSpacer_17">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="1" column="3">
+                  <widget class="QPushButton" name="ProductsButton">
+                   <property name="minimumSize">
+                    <size>
+                     <width>120</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>100</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+	color: rgb(226, 236, 237);
+	border-radius:10px;
+	background-color: rgb(91, 129, 127);
+	font: 10pt &quot;Rockwell&quot;;
+}
+
+QPushButton:Pressed{
+	color: rgb(91, 129, 127);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>الطلبة </string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="2">
+                  <widget class="QPushButton" name="SuppliersButton">
+                   <property name="minimumSize">
+                    <size>
+                     <width>120</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>100</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+	background-color: rgb(64, 91, 90);
+	color: rgb(226, 236, 237);
+	border-radius:10px;
+	font: 9pt &quot;Rockwell&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgb(91, 129, 127);
+	font: 10pt &quot;Rockwell&quot;;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>الأساتذة </string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QFrame" name="Productsframe">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>200</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_84">
+                 <item row="2" column="0">
+                  <widget class="QTableWidget" name="tableWidget">
+                   <property name="layoutDirection">
+                    <enum>Qt::RightToLeft</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">selection-background-color: rgb(234, 234, 234);
+selection-color: rgb(64, 91, 90);
+alternate-background-color: rgb(223, 233, 234);</string>
+                   </property>
+                   <property name="alternatingRowColors">
+                    <bool>true</bool>
+                   </property>
+                   <property name="showGrid">
+                    <bool>true</bool>
+                   </property>
+                   <property name="rowCount">
+                    <number>50</number>
+                   </property>
+                   <attribute name="horizontalHeaderDefaultSectionSize">
+                    <number>96</number>
+                   </attribute>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <column>
+                    <property name="text">
+                     <string>رقم التعريف</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>تاريخ الإنشاء</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>تاريخ التحديث</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>اللقب </string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>الإسم </string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>تاريخ الميلاد</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>المستوى </string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>رقم هاتف الولي</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>الاستاذة </string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>الفوج</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>وصف</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>الصورة</string>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QFrame" name="frame_24">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_43">
+                    <item row="0" column="11">
+                     <widget class="QFrame" name="frame_33">
+                      <property name="minimumSize">
+                       <size>
+                        <width>300</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>300</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(235, 246, 247);
+border-radius:20px;</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_44">
+                       <item row="0" column="1">
+                        <widget class="QLineEdit" name="SearchlineEdit">
+                         <property name="styleSheet">
+                          <string notr="true">border:non;</string>
+                         </property>
+                         <property name="placeholderText">
+                          <string>بحث..</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="2">
+                        <widget class="QToolButton" name="SearchtoolButton">
+                         <property name="styleSheet">
+                          <string notr="true">border:non;</string>
+                         </property>
+                         <property name="text">
+                          <string>...</string>
+                         </property>
+                         <property name="icon">
+                          <iconset>
+                           <normaloff>../Projects/InvenTrack/Icons/Green/search (2).png</normaloff>../Projects/InvenTrack/Icons/Green/search (2).png</iconset>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="0" column="6">
+                     <widget class="QToolButton" name="CopytoolButton">
+                      <property name="styleSheet">
+                       <string notr="true">border:none;</string>
+                      </property>
+                      <property name="text">
+                       <string>...</string>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>../Projects/InvenTrack/Icons/Green/copy-alt.png</normaloff>../Projects/InvenTrack/Icons/Green/copy-alt.png</iconset>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="9">
+                     <spacer name="horizontalSpacer_5">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item row="0" column="10">
+                     <widget class="QComboBox" name="SearchByColorcomboBox">
+                      <property name="minimumSize">
+                       <size>
+                        <width>200</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(235, 246, 247);</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="5">
+                     <widget class="QToolButton" name="RotatetoolButton">
+                      <property name="styleSheet">
+                       <string notr="true">border:none;</string>
+                      </property>
+                      <property name="text">
+                       <string>...</string>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>../Projects/InvenTrack/Icons/Green/rotate-left (3).png</normaloff>../Projects/InvenTrack/Icons/Green/rotate-left (3).png</iconset>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QToolButton" name="AddProducttoolButton">
+                      <property name="styleSheet">
+                       <string notr="true">border:none;</string>
+                      </property>
+                      <property name="text">
+                       <string>...</string>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>../Projects/InvenTrack/Icons/Green/add (3)fsqf.png</normaloff>../Projects/InvenTrack/Icons/Green/add (3)fsqf.png</iconset>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="4">
+                     <widget class="QToolButton" name="DeltoolButton">
+                      <property name="styleSheet">
+                       <string notr="true">border:none;</string>
+                      </property>
+                      <property name="text">
+                       <string>...</string>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>../Projects/InvenTrack/Icons/Green/trash (2).png</normaloff>../Projects/InvenTrack/Icons/Green/trash (2).png</iconset>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_4">
+          <layout class="QGridLayout" name="gridLayout_22">
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_43">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_49">
+              <item row="1" column="0">
+               <widget class="QFrame" name="frame_44">
+                <property name="maximumSize">
+                 <size>
+                  <width>1000</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_31">
+                 <item row="0" column="0">
+                  <widget class="QFrame" name="frame_45">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_34">
+                    <item row="5" column="3">
+                     <widget class="QLabel" name="label_64">
+                      <property name="text">
+                       <string>رقم هاتف الولي :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="5" column="2">
+                     <widget class="QSpinBox" name="SalaryspinBox">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <property name="buttonSymbols">
+                       <enum>QAbstractSpinBox::NoButtons</enum>
+                      </property>
+                      <property name="prefix">
+                       <string>+213    </string>
+                      </property>
+                      <property name="maximum">
+                       <number>999999999</number>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="2">
+                     <widget class="QLineEdit" name="WorkerFullNamelineEdit">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="6" column="2">
+                     <widget class="QComboBox" name="WorkerShiftcomboBox">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <widget class="QLineEdit" name="WorkerIdlineEdit">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="2">
+                     <widget class="QSpinBox" name="WorkerPhoneNumberspinBox">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <property name="buttonSymbols">
+                       <enum>QAbstractSpinBox::NoButtons</enum>
+                      </property>
+                      <property name="maximum">
+                       <number>999999999</number>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="9" column="2">
+                     <widget class="QFrame" name="frame_46">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>50</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_45">
+                       <item row="1" column="1">
+                        <spacer name="horizontalSpacer_8">
+                         <property name="orientation">
+                          <enum>Qt::Horizontal</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>40</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QPushButton" name="ClearWorkerInfosButton">
+                         <property name="minimumSize">
+                          <size>
+                           <width>100</width>
+                           <height>10</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>400</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {
+	border:none;
+	font: 9pt &quot;MS Shell Dlg 2&quot;;
+	text-decoration: underline;
+}
+QPushButton:Pressed{
+	color: rgb(90, 90, 90);
+	text-decoration: underline;
+	font: italic 8pt &quot;MS Sans Serif&quot;;
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>مسح</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="2" column="2">
+                     <widget class="QLineEdit" name="WorkerPositionlineEdit">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="3">
+                     <widget class="QLabel" name="label_63">
+                      <property name="text">
+                       <string>تاريخ الميلاد : </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="7" column="3">
+                     <widget class="QLabel" name="label_67">
+                      <property name="text">
+                       <string>الفوج :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="3">
+                     <widget class="QLabel" name="label_14">
+                      <property name="text">
+                       <string>اللقب : </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="3">
+                     <widget class="QLabel" name="label_27">
+                      <property name="text">
+                       <string>الإسم : </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="6" column="3">
+                     <widget class="QLabel" name="label_66">
+                      <property name="text">
+                       <string>الاستاذة :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="10" column="2">
+                     <widget class="QFrame" name="frame_47">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>70</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>90</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_46">
+                       <item row="1" column="1">
+                        <widget class="QPushButton" name="InsertWorkerpushButton">
+                         <property name="minimumSize">
+                          <size>
+                           <width>300</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>300</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton{
+	border-radius:10px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(64, 91, 90);
+	font: 10pt &quot;Rockwell&quot;;
+}
+
+QPushButton:hover{
+	border-radius:10px;
+	background-color: rgb(91, 129, 127);
+	font: 11pt &quot;Rockwell&quot;;
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>إضافة طالب</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QPushButton" name="UpdateWorkerpushButton">
+                         <property name="minimumSize">
+                          <size>
+                           <width>300</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>300</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton{
+	border-radius:10px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(64, 91, 90);
+	font: 10pt &quot;Rockwell&quot;;
+}
+
+QPushButton:hover{
+	border-radius:10px;
+	background-color: rgb(91, 129, 127);
+	font: 11pt &quot;Rockwell&quot;;
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>تعديل بيانات الطالب</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="8" column="3">
+                     <widget class="QLabel" name="label_61">
+                      <property name="text">
+                       <string>وصف :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="8" column="2">
+                     <widget class="QTextEdit" name="WorkerDescriptiontextEdit">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>100</height>
+                       </size>
+                      </property>
+                      <property name="html">
+                       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                      <property name="placeholderText">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="3">
+                     <widget class="QLabel" name="label_26">
+                      <property name="text">
+                       <string>المستوى : </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="7" column="2">
+                     <widget class="QSpinBox" name="SalaryspinBox_2">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="buttonSymbols">
+                       <enum>QAbstractSpinBox::NoButtons</enum>
+                      </property>
+                      <property name="maximum">
+                       <number>999999999</number>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="2">
+                     <widget class="QDateEdit" name="dateEdit_2">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <property name="calendarPopup">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QFrame" name="frame_48">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>250</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>300</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_47">
+                 <item row="1" column="0">
+                  <widget class="QFrame" name="frame_49">
+                   <property name="maximumSize">
+                    <size>
+                     <width>450</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">border-radius:20px;
+background-color: rgb(220, 230, 231);</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_48">
+                    <item row="1" column="1">
+                     <widget class="QFrame" name="frame_59">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_61">
+                       <item row="2" column="0">
+                        <widget class="QLabel" name="label_79">
+                         <property name="text">
+                          <string>تاريخ الميلاد : </string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="3" column="0">
+                        <widget class="QLabel" name="label_80">
+                         <property name="text">
+                          <string>الفوج :</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="0">
+                        <widget class="QLabel" name="label_36">
+                         <property name="text">
+                          <string>اللقب : </string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QLabel" name="label_35">
+                         <property name="text">
+                          <string>الإسم : </string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="WorkerFullNamelabel">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="0">
+                     <widget class="QLabel" name="WorkerSalarylabel">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="2">
+                     <widget class="QFrame" name="frame_71">
+                      <property name="maximumSize">
+                       <size>
+                        <width>10</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="6">
+                     <widget class="QPushButton" name="WorkerPicButton">
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton {
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+	text-decoration: underline;
+	color: rgb(64, 91, 90);
+	border:none;
+}
+QPushButton:Pressed{
+	color: rgb(196, 203, 207);
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>استيراد صورة</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="6">
+                     <widget class="QLabel" name="WorkerPiclabel">
+                      <property name="maximumSize">
+                       <size>
+                        <width>150</width>
+                        <height>150</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">border-radius:10px;</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="pixmap">
+                       <pixmap>../Projects/InvenTrack/Icons/photo_profile.webp</pixmap>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QFrame" name="frame_58">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_60">
+                       <item row="1" column="0">
+                        <widget class="QLabel" name="label_34">
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="0">
+                        <widget class="QLabel" name="label_33">
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="2" column="0">
+                        <widget class="QLabel" name="label_77">
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="3" column="0">
+                        <widget class="QLabel" name="label_78">
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_5">
+          <layout class="QGridLayout" name="gridLayout_50">
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_50">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_53">
+              <item row="0" column="0">
+               <widget class="QFrame" name="frame_51">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(220, 230, 231);
+border-radius:10px</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_89">
+                 <item row="1" column="2">
+                  <widget class="QPushButton" name="SuppliersButton_2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>120</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>100</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+	background-color: rgb(64, 91, 90);
+	color: rgb(226, 236, 237);
+	border-radius:10px;
+	font: 9pt &quot;Rockwell&quot;;
+}
+
+QPushButton:hover{
+	background-color: rgb(91, 129, 127);
+	font: 10pt &quot;Rockwell&quot;;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>الطلبة </string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QPushButton" name="ProductsButton_2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>120</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>100</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+	color: rgb(226, 236, 237);
+	border-radius:10px;
+	background-color: rgb(91, 129, 127);
+	font: 10pt &quot;Rockwell&quot;;
+}
+
+QPushButton:Pressed{
+	color: rgb(91, 129, 127);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string>الأساتذة </string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <spacer name="horizontalSpacer_18">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QFrame" name="Productsframe_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>200</height>
+                 </size>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_85">
+                 <item row="2" column="0">
+                  <widget class="QTableWidget" name="tableWidget_2">
+                   <property name="layoutDirection">
+                    <enum>Qt::RightToLeft</enum>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">selection-background-color: rgb(234, 234, 234);
+selection-color: rgb(64, 91, 90);
+alternate-background-color: rgb(223, 233, 234);</string>
+                   </property>
+                   <property name="alternatingRowColors">
+                    <bool>true</bool>
+                   </property>
+                   <property name="showGrid">
+                    <bool>true</bool>
+                   </property>
+                   <property name="rowCount">
+                    <number>50</number>
+                   </property>
+                   <attribute name="horizontalHeaderDefaultSectionSize">
+                    <number>137</number>
+                   </attribute>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <row/>
+                   <column>
+                    <property name="text">
+                     <string>رقم التعريف</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>تاريخ الإنشاء</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>تاريخ التحديث</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>اللقب </string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>الإسم </string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>تاريخ الميلاد</string>
+                    </property>
+                   </column>
+                   <column>
+                    <property name="text">
+                     <string>رقم الهاتف</string>
+                    </property>
+                   </column>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QFrame" name="frame_52">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_51">
+                    <item row="0" column="8">
+                     <widget class="QFrame" name="frame_53">
+                      <property name="minimumSize">
+                       <size>
+                        <width>300</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>300</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(235, 246, 247);
+border-radius:20px;</string>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_52">
+                       <item row="0" column="1">
+                        <widget class="QLineEdit" name="SearchlineEdit_2">
+                         <property name="styleSheet">
+                          <string notr="true">border:non;</string>
+                         </property>
+                         <property name="placeholderText">
+                          <string>بحث..</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="2">
+                        <widget class="QToolButton" name="SearchtoolButton_2">
+                         <property name="styleSheet">
+                          <string notr="true">border:non;</string>
+                         </property>
+                         <property name="text">
+                          <string>...</string>
+                         </property>
+                         <property name="icon">
+                          <iconset>
+                           <normaloff>../Projects/InvenTrack/Icons/Green/search (2).png</normaloff>../Projects/InvenTrack/Icons/Green/search (2).png</iconset>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="0" column="7">
+                     <spacer name="horizontalSpacer_6">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QToolButton" name="DeltoolButton_2">
+                      <property name="styleSheet">
+                       <string notr="true">border:none;</string>
+                      </property>
+                      <property name="text">
+                       <string>...</string>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>../Projects/InvenTrack/Icons/Green/trash (2).png</normaloff>../Projects/InvenTrack/Icons/Green/trash (2).png</iconset>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QToolButton" name="RotatetoolButton_2">
+                      <property name="styleSheet">
+                       <string notr="true">border:none;</string>
+                      </property>
+                      <property name="text">
+                       <string>...</string>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>../Projects/InvenTrack/Icons/Green/rotate-left (3).png</normaloff>../Projects/InvenTrack/Icons/Green/rotate-left (3).png</iconset>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QToolButton" name="AddProducttoolButton_2">
+                      <property name="styleSheet">
+                       <string notr="true">border:none;</string>
+                      </property>
+                      <property name="text">
+                       <string>...</string>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>../Projects/InvenTrack/Icons/Green/add (3)fsqf.png</normaloff>../Projects/InvenTrack/Icons/Green/add (3)fsqf.png</iconset>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="4">
+                     <widget class="QToolButton" name="CopytoolButton_2">
+                      <property name="styleSheet">
+                       <string notr="true">border:none;</string>
+                      </property>
+                      <property name="text">
+                       <string>...</string>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>../Projects/InvenTrack/Icons/Green/copy-alt.png</normaloff>../Projects/InvenTrack/Icons/Green/copy-alt.png</iconset>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_6">
+          <layout class="QGridLayout" name="gridLayout_54">
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_54">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_55">
+              <item row="0" column="0">
+               <widget class="QFrame" name="frame_83">
+                <property name="maximumSize">
+                 <size>
+                  <width>600</width>
+                  <height>800</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(220, 230, 231);</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_80">
+                 <item row="2" column="0">
+                  <widget class="QFrame" name="frame_86">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>50</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_82">
+                    <item row="0" column="0">
+                     <spacer name="horizontalSpacer_14">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QPushButton" name="setSalaryWorkerButton_2">
+                      <property name="minimumSize">
+                       <size>
+                        <width>250</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>250</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+	border-radius:10px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(64, 91, 90);
+	font: 10pt &quot;Rockwell&quot;;
+}
+
+QPushButton:hover{
+	border-radius:10px;
+	background-color: rgb(91, 129, 127);
+	font: 11pt &quot;Rockwell&quot;;
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>تعديل بيانات المدرّس</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <widget class="QPushButton" name="setSalaryWorkerButton">
+                      <property name="minimumSize">
+                       <size>
+                        <width>250</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>250</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+	border-radius:10px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(64, 91, 90);
+	font: 10pt &quot;Rockwell&quot;;
+}
+
+QPushButton:hover{
+	border-radius:10px;
+	background-color: rgb(91, 129, 127);
+	font: 11pt &quot;Rockwell&quot;;
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>إضافة مدرس</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <spacer name="horizontalSpacer_15">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QFrame" name="frame_85">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>80</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <widget class="QLabel" name="label_71">
+                    <property name="geometry">
+                     <rect>
+                      <x>210</x>
+                      <y>20</y>
+                      <width>181</width>
+                      <height>41</height>
+                     </rect>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">font: 14pt &quot;MV Boli&quot;;
+color: rgb(64, 91, 90);</string>
+                    </property>
+                    <property name="text">
+                     <string>معلومات المدرّس</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QFrame" name="frame_84">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_81">
+                    <item row="2" column="2">
+                     <widget class="QLabel" name="label_62">
+                      <property name="text">
+                       <string>الإسم :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="6" column="1">
+                     <widget class="QFrame" name="frame_88">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>48</height>
+                       </size>
+                      </property>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QGridLayout" name="gridLayout_86">
+                       <item row="1" column="1">
+                        <spacer name="horizontalSpacer_16">
+                         <property name="orientation">
+                          <enum>Qt::Horizontal</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>40</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item row="1" column="0">
+                        <widget class="QPushButton" name="ClearSalaryWorkesInfosButton_2">
+                         <property name="minimumSize">
+                          <size>
+                           <width>100</width>
+                           <height>30</height>
+                          </size>
+                         </property>
+                         <property name="maximumSize">
+                          <size>
+                           <width>100</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QPushButton {
+	border:none;
+	font: 10pt &quot;MS Shell Dlg 2&quot;;
+	text-decoration: underline;
+}
+QPushButton:Pressed{
+	color: rgb(90, 90, 90);
+	text-decoration: underline;
+	font: italic 8pt &quot;MS Sans Serif&quot;;
+}</string>
+                         </property>
+                         <property name="text">
+                          <string>مسح</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item row="3" column="2">
+                     <widget class="QLabel" name="label_65">
+                      <property name="text">
+                       <string>تاريخ الميلاد</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <widget class="QLabel" name="label_56">
+                      <property name="text">
+                       <string>اللقب  :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="5" column="2">
+                     <widget class="QLabel" name="label_68">
+                      <property name="text">
+                       <string>رقم الهاتف</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLineEdit" name="lineEdit">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QLineEdit" name="lineEdit_2">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="1">
+                     <widget class="QDateEdit" name="dateEdit">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <property name="calendarPopup">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="5" column="1">
+                     <widget class="QSpinBox" name="spinBox">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <property name="buttonSymbols">
+                       <enum>QAbstractSpinBox::NoButtons</enum>
+                      </property>
+                      <property name="prefix">
+                       <string>+213    </string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_7">
+          <layout class="QGridLayout" name="gridLayout_56">
+           <item row="0" column="0">
+            <widget class="QFrame" name="frame_55">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_57">
+              <item row="0" column="0">
+               <widget class="QFrame" name="frame_56">
+                <property name="maximumSize">
+                 <size>
+                  <width>1000</width>
+                  <height>1000</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(220, 230, 231);
+border-radius:30px;</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_58">
+                 <item row="0" column="0">
+                  <widget class="QFrame" name="frame_57">
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>100</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_59">
+                    <item row="0" column="5">
+                     <widget class="QLabel" name="label_15">
+                      <property name="maximumSize">
+                       <size>
+                        <width>50</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string>اللقب :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="5">
+                     <widget class="QLabel" name="label_30">
+                      <property name="text">
+                       <string>المستوى :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLabel" name="label_38">
+                      <property name="maximumSize">
+                       <size>
+                        <width>75</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string>تاريخ الميلاد :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="2">
+                     <widget class="QLabel" name="label_37">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="4">
+                     <widget class="QLabel" name="label_29">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <widget class="QLabel" name="label_16">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="3">
+                     <widget class="QLabel" name="label_32">
+                      <property name="text">
+                       <string>الأستاذة :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QLabel" name="label_28">
+                      <property name="maximumSize">
+                       <size>
+                        <width>50</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string>الإسم :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="4">
+                     <widget class="QLabel" name="label_31">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_39">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QLabel" name="label_40">
+                      <property name="text">
+                       <string>الفوج :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QLabel" name="label_41">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QFrame" name="frame_60">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_62">
+                    <item row="0" column="2">
+                     <widget class="QDoubleSpinBox" name="doubleSpinBox">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QLabel" name="label_42">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>60</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string>إدفع هنا :</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QPushButton" name="setSalaryWorkerButton_3">
+                      <property name="minimumSize">
+                       <size>
+                        <width>50</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>100</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{
+	border-radius:10px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(64, 91, 90);
+	font: 10pt &quot;Rockwell&quot;;
+}
+
+QPushButton:hover{
+	border-radius:10px;
+	background-color: rgb(91, 129, 127);
+	font: 11pt &quot;Rockwell&quot;;
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>الدفع</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QComboBox" name="comboBox_2">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <item>
+                       <property name="text">
+                        <string>إختر الشهر</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>جانفي</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>فيفري</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>مارس </string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>أفريل</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>ماي </string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>جوان </string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>جويلية</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>أوت</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>سبتمبر</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>أكتوبر</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>نوفمبر</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>ديسمبر</string>
+                       </property>
+                      </item>
+                     </widget>
+                    </item>
+                    <item row="0" column="4">
+                     <widget class="QComboBox" name="comboBox">
+                      <property name="minimumSize">
+                       <size>
+                        <width>0</width>
+                        <height>30</height>
+                       </size>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <item>
+                       <property name="text">
+                        <string>حقوق التسجيل</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>الإشتراك الشهري</string>
+                       </property>
+                      </item>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item row="2" column="0">
+                  <widget class="QFrame" name="frame_61">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QGridLayout" name="gridLayout_63">
+                    <item row="0" column="0">
+                     <widget class="QTableWidget" name="tableWidget_3">
+                      <property name="layoutDirection">
+                       <enum>Qt::RightToLeft</enum>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">selection-background-color: rgb(234, 234, 234);
+selection-color: rgb(64, 91, 90);
+alternate-background-color: rgb(223, 233, 234);</string>
+                      </property>
+                      <property name="alternatingRowColors">
+                       <bool>true</bool>
+                      </property>
+                      <property name="showGrid">
+                       <bool>true</bool>
+                      </property>
+                      <property name="rowCount">
+                       <number>50</number>
+                      </property>
+                      <attribute name="horizontalHeaderDefaultSectionSize">
+                       <number>114</number>
+                      </attribute>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <row/>
+                      <column>
+                       <property name="text">
+                        <string>رقم التعريف</string>
+                       </property>
+                      </column>
+                      <column>
+                       <property name="text">
+                        <string>تاريخ الدفع</string>
+                       </property>
+                      </column>
+                      <column>
+                       <property name="text">
+                        <string>اللقب </string>
+                       </property>
+                      </column>
+                      <column>
+                       <property name="text">
+                        <string>الإسم </string>
+                       </property>
+                      </column>
+                      <column>
+                       <property name="text">
+                        <string>تاريخ الميلاد</string>
+                       </property>
+                      </column>
+                      <column>
+                       <property name="text">
+                        <string>الشهر</string>
+                       </property>
+                      </column>
+                      <column>
+                       <property name="text">
+                        <string>المبلغ</string>
+                       </property>
+                      </column>
+                      <column>
+                       <property name="text">
+                        <string>الحالة</string>
+                       </property>
+                      </column>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="page_8"/>
         </widget>
        </item>
       </layout>
@@ -1282,12 +4706,12 @@ background-color: rgb(227, 227, 227);
    <slot>show()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>869</x>
-     <y>1039</y>
+     <x>856</x>
+     <y>1058</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1088</x>
-     <y>555</y>
+     <x>960</x>
+     <y>620</y>
     </hint>
    </hints>
   </connection>
@@ -1298,12 +4722,12 @@ background-color: rgb(227, 227, 227);
    <slot>hide()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>897</x>
-     <y>1045</y>
+     <x>856</x>
+     <y>1058</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1085</x>
-     <y>1139</y>
+     <x>960</x>
+     <y>1186</y>
     </hint>
    </hints>
   </connection>
@@ -1336,6 +4760,102 @@ background-color: rgb(227, 227, 227);
     <hint type="destinationlabel">
      <x>294</x>
      <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>HidetoolButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>frame_7</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1055</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1109</x>
+     <y>117</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>HidetoolButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>HidetoolButton_2</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1050</x>
+     <y>106</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1042</x>
+     <y>103</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ShowtoolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>HidetoolButton_2</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1029</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1054</x>
+     <y>106</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ShowtoolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>frame_7</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1021</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1161</x>
+     <y>52</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>HidetoolButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>ShowtoolButton</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1052</x>
+     <y>114</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1026</x>
+     <y>109</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ShowtoolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>ShowtoolButton</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1024</x>
+     <y>109</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1018</x>
+     <y>106</y>
     </hint>
    </hints>
   </connection>
