@@ -52,6 +52,7 @@ class school(QtWidgets.QMainWindow):
         self.showMaximized()
         self.setMinimumSize(1200, 800)
         self.LoginFrame_2.hide()
+        self.stackedWidget.setCurrentIndex(0)
 
         effect = QGraphicsOpacityEffect(self.label_4)
         effect.setOpacity(0.19)
@@ -65,6 +66,8 @@ class school(QtWidgets.QMainWindow):
 
         self.ClearButton.clicked.connect(self.ClearLogin)
         self.ClearButton2.clicked.connect(self.ClearSignup)
+        self.ShowtoolButton.hide()
+        self.BacktoolButton.clicked.connect(self.goBack)
 
     def SignUpAnAccount(self):
         try:
@@ -72,7 +75,9 @@ class school(QtWidgets.QMainWindow):
             Username=self.UserNameLineEdit2.text()
             Password=self.PasswordLineEdit2.text()
             RePassword=self.PasswordLineEdit3.text()
-            if Password!=RePassword:
+            if Username=="" or Password=="":
+                self.label_2.setText("كلمة السر غير موجودة")
+            elif Password!=RePassword:
                 self.label_2.setText("يرجى تأكيد كلمة السر")
             else:
                 cursor.execute("INSERT INTO Users (Id,Username,Password,RePassword) VALUES (?,?,?,?)",(Id,Username,Password,RePassword))
@@ -84,15 +89,22 @@ class school(QtWidgets.QMainWindow):
         try:
             Username=self.UserNameLineEdit.text()
             Password=self.PasswordLineEdit.text()
-            cursor.execute("SELECT * FROM Users WHERE Username=? AND Password=?",(Username,Password))
-            data=cursor.fetchall()
-            if data:
-                self.stackedWidget.setCurrentIndex(1)
+            if Username=="" or Password=="":
+                self.label_3.setText("كلمة السر غير موجودة")
             else:
-                self.label_3.setText("كلمة السر خاطئة")
+                cursor.execute("SELECT * FROM Users WHERE Username=? AND Password=?",(Username,Password))
+                data=cursor.fetchall()
+                if data:
+                    self.stackedWidget.setCurrentIndex(1)
+                else:
+                    self.label_3.setText("كلمة السر خاطئة")
         except Exception as error:
             print("error",error)
-
+    def goBack(self):
+        index=self.stackedWidget.currentIndex()
+        if index!=0:
+            self.stackedWidget.setCurrentIndex(index-1)
+            
     def ClearLogin(self):
         self.UserNameLineEdit.clear()
         self.PasswordLineEdit.clear()
